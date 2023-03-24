@@ -31,4 +31,5 @@
         font-size: 19px;
         font-weight: 500;
     }
+
 </style>
