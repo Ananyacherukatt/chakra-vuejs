@@ -50,7 +50,7 @@
         width: 150px;
     }
     #pie-chart{
-        height: 300px;
+        height: 360px;
         width: 300px;
         background-color: white;
         border-radius: 10px;

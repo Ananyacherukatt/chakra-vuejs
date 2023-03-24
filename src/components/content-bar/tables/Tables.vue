@@ -8,11 +8,13 @@
 <template>
     <ContentHead head="Tables"/>
     <div id="table">
-
+<div class="first-row">
         <TableStruct :noOfRows='11' />
         <TableStruct :noOfRows='11' />
+    </div>
+    <div class="second-row">
         <TableStruct :noOfRows='5' />
-        <TableStruct :noOfRows='5' />
+        <TableStruct :noOfRows='5' /></div>
         <!-- <TableStruct />
         <TableStruct /> -->
 
@@ -29,7 +31,18 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    
+    .first-row {
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+        margin-left: 40px;
+    }
+    .second-row {
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+        margin-left: 40px;
+    }
     /* @media screen and (max-width:1200px) {
         #table{
             flex-direction: column;
