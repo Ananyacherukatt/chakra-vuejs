@@ -8,6 +8,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   <div id="Kanban">
     <div class="total">
       <div class="first-column">
+        <div class="main1">
         <div class="col1-sec1">
         <div class="main-head-wrapp">
           <div class="main-head">Backlog</div>
@@ -26,14 +27,14 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
         </div>
         <div class="end-wrapper">
             <div>
-          <img src="./Credits to Unsplash.com (1).png" alt="" />
-          <img src="./Credits to Unsplash.com.png" alt="" /></div>
+         
+          <img src="./Avatars Group 3 (Horizontal).png" alt="" /></div>
           <div class="update">Updates
         </div></div></div>
         <div class="col1-sec2">
           <div class="sub-head1-wrapp">
             <div class="sub-head1">Add/modify your own CSS-Selectors</div>
-            <img src="./Vector (10).png" alt="" style="width: 1rem;height: 1rem;">
+            <img src="./Vector (10).png" alt="" style="width: 0.6rem;height: 0.9rem;">
           </div>
           <img src="./Cover 1.png" alt="" />
           <div class="sub-head-des" id="col1-sec2-sub-head">
@@ -42,9 +43,9 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           </div>
           <div class="end-wrapper">
             <div>
-            <img src="./Credits to Unsplash.com (1).png" alt="" />
-            <img src="./Credits to Unsplash.com.png" alt="" />
-            <img src="./Credits to Unsplash.com (1).png" alt="" /></div>
+            <img src="./Avatars (1).png" alt="" style="width: 5rem;" />
+       
+           </div>
             <div class="update" id="update">Pending</div>
           </div>
         </div>
@@ -64,7 +65,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
               <div class="update3" id="update3">Errors</div>
             </div>
           </div>
-        </div>
+        </div></div>
       </div>
       <div class="second-col">
         <div class="col2-sec1">
@@ -84,9 +85,9 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           </div>
           <div class="end-wrapper">
             <div>
-            <img src="./Credits to Unsplash.com (1).png" alt="" />
-            <img src="./Credits to Unsplash.com.png" alt="" />
-            <img src="./Credits to Unsplash.com.png" alt="" /></div>
+              <img src="./Avatars (1).png" alt="" style="width: 5rem;" />
+            
+            </div>
             <div class="update" id="update2">Pending</div>
           </div>
         </div>
@@ -140,14 +141,14 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           </div>
           <div class="sub-head1-wrapp">
             <div class="sub-head1">Copy/Paste elements between pages</div>
-            <img src="./Vector (10).png" alt="" style="width: 1rem;height: 1rem;">
+            <img src="./Vector (10).png" alt="" style="width: 0.6rem;height: 0.9rem;">
           </div>
           <div class="sub-head-des" id="sub-head-des">
             We can only copy/paste elements (or group of elements) in the same
             page, which is quite limited.
           </div>
           <div class="end-wrapper">
-            <img src="" alt="" />
+            <img src="./Credits to Unsplash.com.png" alt="" />
             <div class="update1">Done</div>
           </div>
         </div>
@@ -156,6 +157,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
             <div class="sub-head1">
               Remove Extra DIV for each container added
             </div>
+            <img src="./Vector (10).png" alt="" style="width: 0.6rem;height: 0.9rem;">
             <div class="pencil"></div>
           </div>
           <div class="sub-head-des">
@@ -163,9 +165,9 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
             added. It should be something for better styling...
           </div>
           <div class="end-wrapper">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src="./Credits to Unsplash.com.png" alt="" />
+           
+            
             <div class="update1">Done</div>
           </div>
         </div>
@@ -174,6 +176,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
             <div class="sub-head1">
               Add Figma files for the Library design blocks
             </div>
+            <img src="./Vector (10).png" alt="" style="width: 0.6rem;height: 0.9rem;">
             <div class="pencil"></div>
           </div>
           <div class="sub-head-des">
@@ -181,8 +184,8 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
             great if you add those as well, more manual downloads...
           </div>
           <div class="end-wrapper">
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src="./Credits to Unsplash.com (1).png" alt="" />
+            
             <div class="update1">Done</div>
           </div>
         </div>
@@ -223,6 +226,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
 font-style: normal;
 font-weight: 525;
 font-size: 16.5px;
+color: #2B3674;
 
 }
 .add {
@@ -247,6 +251,8 @@ font-size: 16.5px;
 font-style: normal;
 font-weight: 525;
 font-size: 15px;
+color: #2B3674;
+
 
 }
 .sub-head-des  {

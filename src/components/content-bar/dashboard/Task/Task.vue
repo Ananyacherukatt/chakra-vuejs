@@ -1,8 +1,10 @@
 <template>
   <div class="main">
     <div class="header">
-      <img class="grey-bac" src="./Vector (20).png" alt="" />
+      <img class="grey-bac" src="./Vector (20).png" alt=""  style="width: 1.1rem;height: 1.1rem;" />
+      <div class="content">
       <div class="task">Tasks</div>
+      <div class="dot">...</div></div>
     </div>
 <div class="wrapper">
     <div class="dot"></div>
@@ -165,6 +167,21 @@ color: #A3AED0;
    justify-content: space-between;
    margin-left: 240px;
     margin-top: -168px;
+}
+.content  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dot {
+    display:flex;
+    flex-direction: column;
+    margin-left: 150px;
+    color: blue;
+    background-color: #eee;
+    border-radius: 10px;
+   width: 28px;
+   align-items: center;
 }
 
 </style>

@@ -70,7 +70,9 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           </div>
           <div class="content">
             <div class="tech-heading">Technology behind the Blockchain</div>
+            <div class="wrapping">
             <div class="project">Project#1</div>
+            <div class="details">  See Project Details</div></div>
           </div>
           <div class="icon">
             <img src="./Vector (9).png" alt="" />
@@ -82,7 +84,9 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           </div>
           <div class="content">
             <div class="tech-heading">Technology behind the Blockchain</div>
+            <div class="wrapping">
             <div class="project">Project#1</div>
+            <div class="details">  See Project Details</div></div>
           </div>
           <div class="icon">
             <img src="./Vector (9).png" alt="" />
@@ -94,7 +98,9 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           </div>
           <div class="content">
             <div class="tech-heading">Technology behind the Blockchain</div>
+            <div class="wrapping">
             <div class="project">Project#1</div>
+            <div class="details">  See Project Details</div></div>
           </div>
           <div class="icon">
             <img src="./Vector (9).png" alt="" />
@@ -632,4 +638,19 @@ body {
 display: flex;
 flex-direction: column;
 } */
+
+.wrapping {
+  display: flex;
+  flex-direction: row;
+  color: blue;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 375;
+  font-size: 11px;
+ 
+}
+.details {
+  text-decoration: underline;
+  margin-left: 10px;
+}
 </style>

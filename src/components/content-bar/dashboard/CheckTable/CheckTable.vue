@@ -1,67 +1,14 @@
 <template>
-  <!-- <div class="main">
-    <div class="head">
-      <div class="Heading">Check Table</div>
-      <div class="dots">...</div>
-    </div>
-    <div class="sub-head">
-      
-     
-      
-      
-   
-    <div class="first-col">
-        <div class="name"  style="color: grey;">name</div>
-        <div class="box-content-wrapp">
-            <div class="checkbox">&#9745;</div>
-            <div class="data">Horizon UI Pro</div>
-        </div>
-        <div class="box-content-wrapp">
-            <div class="checkbox">&#9745;</div>
-            <div class="data">Horizon UI Pro</div>
-        </div>
-        <div class="box-content-wrapp">
-            <div class="checkbox">&#9745;</div>
-            <div class="data">Horizon UI Pro</div>
-        </div>
-        <div class="box-content-wrapp">
-            <div class="checkbox">&#9745;</div>
-            <div class="data">Horizon UI Pro</div>
-        </div>
-        <div class="box-content-wrapp">
-            <div class="checkbox">&#9745;</div>
-            <div class="data">Horizon UI Pro</div>
-        </div>
-    </div>
-    <div class="second-col">
-        <div class="progress" style="color: grey; margin-bottom: 20px;">Progress</div>
-        <div class="percentage" >10.5%</div>
-        <div class="percentage">10.5%</div>
-        <div class="percentage">10.5%</div>
-        <div class="percentage">10.5%</div>
-        <div class="percentage">10.5%</div>
-    </div>
-    <div class="third-col">
-        <div class="Quantity"  style="color: grey;">Quantity</div>
-        <div class="qua">245</div>
-        <div class="qua">245</div>
-        <div class="qua">245</div>
-        <div class="qua">245</div>
-        <div class="qua">245</div>
-    </div>
-    <div class="fourth-col">
-        <div class="date"  style="color: grey;">Date</div>
-        <div class="dates">24Jan2021</div>
-        <div class="dates">24Jan2021</div>
-        <div class="dates">24Jan2021</div>
-        <div class="dates">24Jan2021</div>
-        <div class="dates">24Jan2021</div>
-    </div> </div>
-  </div> -->
+  
 
 <div class="main-content">
     
+    
     <div class="first-col">
+        <!-- <div class="wrap">
+        <div class="check">Check Table</div>
+        <div class="dots">...</div>
+    </div> -->
         <div class="name">NAME</div>
     <div class="part1">
         <div class="box4"></div>
@@ -211,6 +158,12 @@ margin-left: 65px;
     flex-direction: row;
     margin-top: -20px;
     justify-content: space-between;
+}
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
 }
 
 

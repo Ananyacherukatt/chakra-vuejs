@@ -1,4 +1,4 @@
-<script setup>
+<script  setup>
 </script>
 
 <template>
@@ -15,25 +15,28 @@
                     title <font-awesome-icon icon="fa-solid fa-angle-down" />
                 </div>
             </div>
-            <div class="table-row" v-for="n in noOfRows">
-                <div>MarketPlace</div>
-                <div>logo</div>
-                <div>12.Jan.2021</div>
-                <div>
-                    <div>75.5%</div> 
+            <div class="table-row" v-for="n in tData">
+                <div>{{ n.data1 }}</div>
+                <div class="table-row-logos">
+                    <img v-if="n.data2.isApple" src="./apple.png" />
+                    <img v-if="n.data2.isAndroid" src="./android.png" />
+                    <img v-if="n.data2.isWindows" src="./windows.png" />
+                </div>
+                <div>{{ n.data3 }}</div>
+                <div class="table-row-progress">
+                    <div>{{ n.data4 }}%</div> 
                     <div id="progress">
-                        <div></div>
+                        <div :style="{ width : n.data4 + '%' }"></div>
                     </div> 
                 </div>
             </div>
         </div>
     </div>
-    
 </template>
 
 <script>
 export default {
-    props:['noOfRows']
+    props:['tData']
 }
 </script>
 
@@ -77,6 +80,13 @@ export default {
         display: flex;
         align-items: center;
     }
+    .table-row-logos > img{
+        margin-right: 10px;
+    }
+    .table-row-progress{
+        display: flex;
+        justify-content: space-between;
+    }
     .table-title-row{
         color: #A3AED0;
         border-bottom: 1px solid ;
@@ -105,7 +115,6 @@ export default {
     }
     #progress div{
         height: 100%;
-        width: 60%;
         border-radius: 5px;
         background-color: #4318FF;
         position: absolute;

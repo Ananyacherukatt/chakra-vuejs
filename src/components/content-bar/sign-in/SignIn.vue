@@ -210,9 +210,10 @@ background-color: white;
 }
 .G-img {
     position:absolute;
-    left: 32.5rem;
+    left: 18.5rem;
     top: 18.5rem;
 }
+
 
 
 
