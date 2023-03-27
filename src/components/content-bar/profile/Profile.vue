@@ -64,6 +64,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           Here you can find more details about your projects. Keep you user
           engaged by providing meaningful information.
         </div>
+        <div class="wrapp1">
         <div class="total">
           <div class="pic">
             <img class="pc-1" src="./Image (5).png" alt="" />
@@ -77,7 +78,8 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           <div class="icon">
             <img src="./Vector (9).png" alt="" />
           </div>
-        </div>
+        </div></div>
+        <div class="wrapp1">
         <div class="total">
           <div class="pic">
             <img class="pc-1" src="./Image (6).png" alt="" />
@@ -91,7 +93,8 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           <div class="icon">
             <img src="./Vector (9).png" alt="" />
           </div>
-        </div>
+        </div></div>
+        <div class="wrapp1">
         <div class="total">
           <div class="pic">
             <img class="pc-1" src="./Image (7).png" alt="" />
@@ -105,7 +108,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
           <div class="icon">
             <img src="./Vector (9).png" alt="" />
           </div>
-        </div>
+        </div></div>
       </div>
 
       <div class="section-1-2">
@@ -120,16 +123,16 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
         <div class="total-content">
           <div class="left-part">
             <div class="cap-1">
-              <div class="small-head">Education</div>
-              <div class="big-head">Stanford University</div>
+              <div class="small-head1">Education</div>
+              <div class="big-head1">Stanford University</div>
             </div>
             <div class="cap-2">
-              <div class="small-head">Department</div>
-              <div class="big-head">Product Design</div>
+              <div class="small-head1">Department</div>
+              <div class="big-head1">Product Design</div>
             </div>
             <div class="cap-3">
-              <div class="small-head">Department</div>
-              <div class="big-head">Product Design</div>
+              <div class="small-head1">Department</div>
+              <div class="big-head1">Product Design</div>
             </div>
           </div>
           <div class="right-part">
@@ -141,7 +144,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
               <div class="small-head">Department</div>
               <div class="big-head">Product Design</div>
             </div>
-            <div class="cap-2">
+            <div class="cap-3">
               <div class="small-head">Department</div>
               <div class="big-head">Product Design</div>
             </div>
@@ -284,7 +287,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   color: #a3aed0;
 }
 .section-2 {
-  width: 414px;
+  width: 286px;
   height: 273px;
   background-color: white;
   gap: 20px;
@@ -332,11 +335,14 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   position: absolute;
   bottom: 10%;
   z-index: 99;
+  left: 10px;
+  width: 172px;
 }
 .unfilled {
   bottom: 10%;
   position: absolute;
   left: 2%;
+  width: 255px;
 }
 .gb {
   display: flex;
@@ -346,12 +352,26 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   display: flex;
   position: absolute;
   bottom: 14%;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+color: #A3AED0;
+left: 10px;
 }
 .last-1 {
   display: flex;
   position: absolute;
   bottom: 14%;
-  left: 85%;
+  left: 83%;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+color: #A3AED0;
+
 }
 .third-section {
   display: flex;
@@ -362,9 +382,10 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   gap: 20px;
   border-radius: 20px;
   position: relative;
+  width: 503px;
 }
 .right {
-  width: 180px;
+  width: 201px;
   height: 210px;
   display: flex;
   align-items: center;
@@ -372,6 +393,10 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   position: relative;
   /* border: 1px dotted; */
   background-color: #fafcfe;
+  top: 15px;
+  left: 15px;
+  border-radius: 15px;
+  border: 1px dashed #E0E5F2;
 }
 .arrow {
   width: 34px;
@@ -383,8 +408,8 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
 }
 .img-name {
   position: absolute;
-  left: 60px;
-  bottom: 60px;
+  left: 57px;
+    bottom: 54px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 525;
@@ -398,7 +423,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
 .img-sub {
   position: absolute;
   left: 30px;
-  bottom: 40px;
+  bottom: 24px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 375;
@@ -425,7 +450,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   padding: 5px;
   border-radius: 10px;
   color: white;
-  margin-top: 60px;
+  margin-top: 35px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -437,7 +462,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 12px;
   color: #a3aed0;
 }
 .second-row {
@@ -446,6 +471,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   justify-content: space-between;
   margin-top: 50px;
   border-radius: 20px;
+  gap: 20px;
 }
 .section-1-1 {
   width: 350px;
@@ -480,12 +506,15 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  height: 415px;
 }
 .total {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  margin-right: 45px;
+  margin-bottom: 13px;
 }
 .pc-1 {
   margin-top: 20px;
@@ -506,12 +535,12 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   color: #a3aed0;
 }
 .icon {
-  margin-left: 22%;
+  margin-left: 21.5%;
   position: absolute;
 }
 .section-1-2 {
-  width: 350px;
-  height: 380px;
+  width: 462px;
+    height: 415px;
   background-color: white;
   padding: 10px;
   justify-content: space-between;
@@ -520,7 +549,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
 }
 .section-1-3 {
   width: 350px;
-  height: 380px;
+  height: 415px;
   background-color: white;
   padding: 10px;
   justify-content: space-between;
@@ -530,6 +559,7 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
 .left-part {
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
 }
 .cap-1 {
   width: 200px;
@@ -539,10 +569,12 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 18px 40px rgb(112 144 176 / 12%);
 }
 .right-part {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .total-content {
   display: flex;
@@ -555,27 +587,35 @@ import ContentFoot from "../content-foot/ContentFoot.vue";
   font-weight: 375;
   font-size: 12px;
   color: #a3aed0;
+  position: absolute;
+    margin-top: 10%;
+    flex-direction: column;
+    margin-left: 5%;
 }
+
 .big-head {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
+  position: relative;
+    margin-left: 5%;
 }
+
 .cap-2 {
   width: 200px;
   height: 68px;
-  background-color: #fafcfe;
+  box-shadow: 0px 18px 40px rgb(112 144 176 / 12%);
   border-radius: 20px;
   margin-top: 20px;
 }
 .cap-3 {
   width: 200px;
   height: 68px;
-  background-color: #fafcfe;
+  box-shadow: 0px 18px 40px rgb(112 144 176 / 12%);
   border-radius: 20px;
-  margin-top: 20;
-  padding: 10px;
+  margin-top: 20px;
+  
 }
 input[type="checkbox"] {
   height: 0;
@@ -653,4 +693,33 @@ flex-direction: column;
   text-decoration: underline;
   margin-left: 10px;
 }
+.wrapp1 {
+  box-shadow: 0px 18px 40px rgba(112, 144, 176, 0.12);
+  display: flex;
+    align-items: center;
+    width: 337px;
+    height: 81px;
+    align-items: center;
+    justify-content: center;
+}
+.small-head1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 375;
+  font-size: 12px;
+  color: #a3aed0;
+  position: absolute;
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+.big-head1{
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  position: absolute;
+  margin-left: 1%;
+}
+
+
 </style>

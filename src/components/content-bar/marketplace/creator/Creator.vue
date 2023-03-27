@@ -68,7 +68,7 @@ export default {
         
     }
     .table-row > div {
-        width: 20%;
+        width: 15%;
         display: flex;
         align-items: center;
     }
@@ -85,7 +85,7 @@ export default {
     #table-content{
         font-family: 'DM Sans';
         font-weight: 700;
-        font-size: 12px;
+        font-size: 10px;
         color: #2B3674;
     }
     #table-content > div{

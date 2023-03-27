@@ -3,6 +3,7 @@
     <div class="head">
       <div class="Heading">Complex Table</div>
       <div class="dots">...</div>
+      <div class="bg"></div>
     </div>
     <div class="sub-head">
       <div class="first-col">
@@ -99,10 +100,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:  #eee;
-  border-radius: 10px;
+  /* background-color:  #eee;
+  border-radius: 10px; */
   color: blue;
+  position: absolute;
+  left: 47rem;
+    
+    z-index: 999;
 }
+
 .sub-head {
   display: flex;
   flex-direction: row;
@@ -204,5 +210,12 @@
 .pics {
     width: 4.1rem;
     height: -0.4rem;
+}
+.bg {
+    display: flex;
+    background-color: #eee;
+    width: 27px;
+    border-radius: 9px;
+    height: 27px;
 }
 </style>

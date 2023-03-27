@@ -1,5 +1,5 @@
 export const data = {
-    labels: ['Your file', 'System', 'Empty'],
+    // labels: ['Your file', 'System', 'Empty'],
     datasets: [
       {
         backgroundColor: ['#4318FF', '#6AD2FF', '#EFF4FB'],

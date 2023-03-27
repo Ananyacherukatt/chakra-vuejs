@@ -48,7 +48,7 @@
     #name{
         font-family: 'DM Sans';
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
         color: #1B2559;
     }
     #author{
@@ -60,7 +60,7 @@
     #bid{
         font-family: 'DM Sans';
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
         color: #2B3674;
     }
     #time{

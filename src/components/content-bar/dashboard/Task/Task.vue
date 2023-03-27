@@ -5,6 +5,7 @@
       <div class="content">
       <div class="task">Tasks</div>
       <div class="dot">...</div></div>
+      <div class="bg"></div>
     </div>
 <div class="wrapper">
     <div class="dot"></div>
@@ -178,10 +179,20 @@ color: #A3AED0;
     flex-direction: column;
     margin-left: 150px;
     color: blue;
-    background-color: #eee;
-    border-radius: 10px;
+    /* background-color: #eee;
+    border-radius: 10px; */
    width: 28px;
    align-items: center;
+   z-index: 999;
+}
+.bg {
+    display: flex;
+    background-color: #eee;
+    width: 27px;
+    border-radius: 9px;
+    height: 27px;
+    position: absolute;
+    left: 85%;
 }
 
 </style>
