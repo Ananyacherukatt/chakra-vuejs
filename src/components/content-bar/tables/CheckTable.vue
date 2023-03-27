@@ -27,12 +27,12 @@
     </div>
 </template>
 
-<script>
+<script >
 </script>
 
 <style scoped>
     #table-struct{
-        width: 600px;
+        width: 540px;
         background-color: white;
         padding: 20px;
         box-sizing: border-box;

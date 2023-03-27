@@ -18,9 +18,15 @@
             <div class="table-row" v-for="n in tData">
                 <div>{{ n.data1 }}</div>
                 <div class="table-row-logos">
-                    <img v-if="n.data2.isApple" src="./apple.png" />
-                    <img v-if="n.data2.isAndroid" src="./android.png" />
-                    <img v-if="n.data2.isWindows" src="./windows.png" />
+                    
+                    <img v-if="n.data2.isApproved" src="./approved.png" />
+                    <img v-else-if="n.data2.isDisabled" src="./disabled.png" />
+                    <img v-else src="./warning.png" />
+
+                    <div v-if="n.data2.isApproved" >Approved</div>
+                    <div v-else-if="n.data2.isDisabled" >Disabled</div>
+                    <div v-else> Warning</div>
+
                 </div>
                 <div>{{ n.data3 }}</div>
                 <div class="table-row-progress">
@@ -76,7 +82,7 @@ export default {
         
     }
     .table-row > div {
-        min-width: 20%;
+        width: 20%;
         display: flex;
         align-items: center;
     }
